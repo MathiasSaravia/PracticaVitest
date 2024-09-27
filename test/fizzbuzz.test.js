@@ -50,4 +50,8 @@ describe ("fizzbuzz", ()=> {
     it ("should return fizzbuzz if number provided is multiple of 15" , () => {
         expect (fizzbuzz(15)).toBe("fizzbuzz")
     })
+
+    it ("should return fizz if number provided is 7" , () =>{
+        expect (fizzbuzz(7)).toBe("woff")
+    })
 })
